@@ -11,6 +11,12 @@ then
     pip install -r requirements.txt
 fi
 
+
+isort --version-number
 isort --check-only --diff --quiet
+
+black --version
 black --check --exclude node_modules .
+
+flake8 --version
 flake8
