@@ -2,6 +2,9 @@
 
 set -eax
 
+DIR=${1:-.}
+cd $DIR
+
 if [ -f Pipfile ]
 then
     pip install -U pipenv
