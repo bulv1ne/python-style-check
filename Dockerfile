@@ -1,4 +1,4 @@
-FROM python:3.7-slim
+FROM python:3.7
 
 LABEL "com.github.actions.name"="Python style check"
 LABEL "com.github.actions.description"="Checks repository against isort, flake8 and black"
