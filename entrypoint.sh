@@ -22,4 +22,4 @@ black --version
 black --check --exclude node_modules .
 
 flake8 --version
-flake8 --ignore E501
+flake8 --ignore E501,W503
