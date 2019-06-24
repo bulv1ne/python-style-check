@@ -19,7 +19,7 @@ isort --version-number
 isort --check-only --diff --quiet
 
 black --version
-black --check --exclude node_modules .
+black --check --exclude '/(\.eggs|\.git|\.hg|\.mypy_cache|\.nox|\.tox|\.venv|_build|buck-out|build|dist|node_modules)/' .
 
 flake8 --version
 flake8 --ignore E501,W503
