@@ -16,7 +16,7 @@ fi
 
 
 isort --version-number
-isort --check-only --diff --quiet
+isort . --check --diff
 
 black --version
 black --check --exclude '/(\.eggs|\.git|\.hg|\.mypy_cache|\.nox|\.tox|\.venv|_build|buck-out|build|dist|node_modules)/' .
